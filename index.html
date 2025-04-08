@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>4D Cube</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    </head>
+    <style>
+        #side{
+            position:absolute;
+            left:940px;
+            font-size:45px;
+        }
+        #sidem{
+            position:absolute;
+            left:1450px;
+            top:140px;
+            font-size:45px;
+        }
+        #big{
+            font-size:60px;
+        }
+    </style>
+    <body>
+        <div id="sidem">操作<hr>クリックで各八胞体の中心点を選択し、左クリックで掘る。また、右クリックでマークをつけれる。</div>
+        <div id="side">
+            <label id="big">4次元マインスイーパー</label><hr>
+            <t id="infomation"></t>
+        </div>
+        <canvas class="canvas" width="900" height="900"></canvas>
+        <script type="text/javascript" src="../../lib/mathematics.lib.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
